@@ -106,7 +106,7 @@ public class University implements Serializable {
         if (student != null){
         average=student.calculateAverage();
 
-        if (average==0){
+        if (Double.isNaN(average)){
             System.out.println("Keskiarvo on 0.0");
         } else {
             System.out.println("Keskiarvo on "+ average);

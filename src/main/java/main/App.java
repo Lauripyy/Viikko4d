@@ -45,7 +45,7 @@ public class App implements Serializable{
 
 
                     case 5:
-                        Calculator calculator = new Calculator();
+                        Calculator calculator = new Calculator(sc);
                         university.listStudentsId();
                         System.out.println("Minkä opiskelijan suoritteiden keskiarvo lasketaan?");
                         String idString3 = sc.nextLine();
